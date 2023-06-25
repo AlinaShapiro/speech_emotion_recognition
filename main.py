@@ -13,8 +13,7 @@ from keras.models import Sequential
 from keras.layers import *
 
 def save_date_to_pickle():
-  print(2)
-  exit(0)
+  
   audio_common_speech = []
   labels_common_speech = []
   emotions = {
